@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 @RequiredArgsConstructor
 @Controller
@@ -85,31 +86,6 @@ public class UserController {
 
         return "redirect:/";
     }
-//    @PostMapping("/userTempSet")
-//    public String userTempSet(@RequestParam("hiddenMaxTemp") String hiddenMaxTemp,
-//                              @RequestParam("hiddenMinTemp") String hiddenMinTemp,
-//                              @RequestParam("rain") boolean rain,
-//                              @RequestParam("hiddenUserId") String hiddenUserId){
-//        // 사용자가 변경하려는 값을 가져온다
-//        Double hiddenMaxTempDouble = Double.parseDouble(hiddenMaxTemp);
-//        Double hiddenMinTempDouble = Double.parseDouble(hiddenMinTemp);
-//
-//        // 사용자 정보로 UserTemp 객체를 조회 or 생성
-//        UserTemp userTemp = userTempService.getUserTemp(hiddenUserId);
-//        if(userTemp == null){
-//            userTemp = new UserTemp();
-//            SiteUser siteUser = userRepository.findById(hiddenUserId).get();
-//            userTemp.setSiteUser(siteUser);
-//        }
-//        // 사용자가 변경한 값을 업데이트
-//        userTemp.setUserSetMaxTemp(hiddenMaxTempDouble);
-//        userTemp.setUserSetMinTemp(hiddenMinTempDouble);
-//        userTemp.setUserSetRain(rain ? 1:0);
-//
-//        // 변경된 UserTemp 객체를 저장
-//        userTempService.saveUserTemp(userTemp);
-//
-//        return "redirect:/";
-//    }
+
 
 }

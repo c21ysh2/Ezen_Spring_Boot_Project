@@ -40,6 +40,9 @@ dependencies {
     // SpringSecurity
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
+    // 문자 발송을 위한
+    implementation 'net.nurigo:sdk:4.3.0'
+    implementation 'net.nurigo:javaSDK:2.2'
 }
 
 

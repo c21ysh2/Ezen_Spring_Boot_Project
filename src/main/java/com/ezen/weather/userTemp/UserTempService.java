@@ -29,10 +29,7 @@ public class UserTempService {
 
         userTempRepository.save(userTemp);
     }
-    // UserTemp 저장 메서드
-//    public void saveUserTemp(UserTemp userTemp){
-//        userTempRepository.save(userTemp);
-//    }
+
 
     public UserTemp getUserTemp(String userId){
         SiteUser siteUser = userRepository.findById(userId).get();
