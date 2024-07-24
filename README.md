@@ -62,7 +62,7 @@ message-secret-api-key = API Key 추가
 - 카카오 로그인 api : https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api
 - 기상청 단기예보 api : https://www.data.go.kr/data/15084084/openapi.do
 - 미세먼지 api : https://api-docs.iqair.com/
-- 센드엠 문자 알림톡 : https://sendm.co.kr/
+- coolsms 문자 api : https://coolsms.co.kr/
 - 뉴스 api : https://newsdata.io/
 
 ## 👨‍🦱프로그래머 정보
